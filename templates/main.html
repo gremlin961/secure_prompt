@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Parser</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Image Parser</h1>
+        <p>Upload an image to identify individual products.</p>
+        <form method="post" action="/upload" enctype="multipart/form-data">
+            <label for="project_id">Project ID:</label>
+            <input type="text" id="project_id" name="project_id" required> 
+            <br>
+            <label for="secret_name">Secret Name:</label>
+            <input type="text" id="secret_name" name="secret_name" required> 
+            <br>
+            <label for="image">Image file:</label>
+            <input type="file" id="image" name="image" required>
+            <br>
+            <button type="submit">Parse Image</button>
+        </form>
+    </div>
+</body>
+</html>
