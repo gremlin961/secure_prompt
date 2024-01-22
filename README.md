@@ -1,5 +1,5 @@
-# secure_prompt
-Example of using GCP Secret Manager with LLM's
+# Secure Prompting
+## Example of using GCP Secret Manager with LLM's
 
 This code implements a FastAPI application that utilizes Vertex AI Generative Models to generate text based on an uploaded image and a prompt.
 
