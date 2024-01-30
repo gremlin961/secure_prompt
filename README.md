@@ -1,7 +1,7 @@
 # Secure Prompting
 ## Example of using GCP Secret Manager with LLM's
 
-This code implements a FastAPI application that utilizes Vertex AI Generative Models to generate text based on an uploaded image and a prompt.
+GCP Secret Manager is a powerful tool that can help secure LLM prompts. This example shows how to leverage GCP Secret Manager to ensure the application prompts are stored in a secure and encrypted environment as well as how to incorporate versioning by leveraging aliases.
 
 ## main.py
 Defines a FastAPI application with routes for the main page and image upload endpoint.
